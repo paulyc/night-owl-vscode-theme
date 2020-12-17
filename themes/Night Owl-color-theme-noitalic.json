@@ -1,6 +1,7 @@
 {
   "name": "Night Owl No Italics",
   "type": "dark",
+  "semanticHighlighting": false,
   "colors": {
     "contrastBorder": "#122d42",
     "focusBorder": "#122d42",
@@ -112,11 +113,11 @@
     "editorGutter.addedBackground": "#9CCC65",
     "editorGutter.deletedBackground": "#EF5350",
     "diffEditor.insertedTextBackground": "#99b76d23",
-    "diffEditor.insertedTextBorder": "#addb6733",
+    "diffEditor.insertedTextBorder": "#c5e47833",
     "diffEditor.removedTextBackground": "#ef535033",
     "diffEditor.removedTextBorder": "#ef53504d",
-    "editorWidget.background": "#31364a",
-    "editorWidget.border": "#262A39",
+    "editorWidget.background": "#021320",
+    "editorWidget.border": "#5f7e97",
     "editorSuggestWidget.background": "#2C3043",
     "editorSuggestWidget.border": "#2B2F40",
     "editorSuggestWidget.foreground": "#d6deeb",
@@ -126,7 +127,7 @@
     "editorHoverWidget.border": "#5f7e97",
     "debugExceptionWidget.background": "#011627",
     "debugExceptionWidget.border": "#5f7e97",
-    "editorMarkerNavigation.background": "#31364a",
+    "editorMarkerNavigation.background": "#0b2942",
     "editorMarkerNavigationError.background": "#EF5350",
     "editorMarkerNavigationWarning.background": "#FFCA28",
     "peekView.border": "#5f7e97",
@@ -168,7 +169,7 @@
     "titleBar.activeForeground": "#eeefff",
     "titleBar.inactiveBackground": "#010e1a",
     "titleBar.inactiveForeground": null,
-    "notifications.background": "#021f35",
+    "notifications.background": "#01111d",
     "notifications.border": "#262a39",
     "notificationCenter.border": "#262a39",
     "notificationToast.border": "#262a39",
@@ -186,7 +187,7 @@
     "terminal.ansiGreen": "#22da6e",
     "terminal.ansiMagenta": "#C792EA",
     "terminal.ansiRed": "#EF5350",
-    "terminal.ansiYellow": "#addb67",
+    "terminal.ansiYellow": "#c5e478",
     "terminal.ansiBrightWhite": "#ffffff",
     "terminal.ansiBrightBlack": "#575656",
     "terminal.ansiBrightBlue": "#82AAFF",
@@ -197,20 +198,22 @@
     "terminal.ansiBrightYellow": "#ffeb95",
     "terminal.selectionBackground": "#1b90dd4d",
     "terminalCursor.background": "#234d70",
+    "textCodeBlock.background": "#4f4f4f",
     "debugToolBar.background": "#011627",
     "welcomePage.buttonBackground": "#011627",
     "welcomePage.buttonHoverBackground": "#011627",
     "walkThrough.embeddedEditorBackground": "#011627",
     "gitDecoration.modifiedResourceForeground": "#a2bffc",
     "gitDecoration.deletedResourceForeground": "#EF535090",
-    "gitDecoration.untrackedResourceForeground": "#addb67ff",
+    "gitDecoration.untrackedResourceForeground": "#c5e478ff",
     "gitDecoration.ignoredResourceForeground": "#395a75",
     "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
     "source.elm": "#5f7e97",
     "string.quoted.single.js": "#ffffff",
     "meta.objectliteral.js": "#82AAFF"
   },
-  "tokenColors": [{
+  "tokenColors": [
+    {
       "name": "Changed",
       "scope": [
         "markup.changed",
@@ -233,7 +236,7 @@
       "name": "Inserted",
       "scope": "markup.inserted.diff",
       "settings": {
-        "foreground": "#addb67ff"
+        "foreground": "#c5e478ff"
       }
     },
     {
@@ -255,7 +258,7 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#addb67"
+        "foreground": "#ecc48d"
       }
     },
     {
@@ -269,7 +272,7 @@
       "name": "Support Constant Math",
       "scope": "support.constant.math",
       "settings": {
-        "foreground": "#addb67"
+        "foreground": "#c5e478"
       }
     },
     {
@@ -323,7 +326,7 @@
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "foreground": "#addb67"
+        "foreground": "#c5e478"
       }
     },
     {
@@ -374,7 +377,7 @@
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "#addb67"
+        "foreground": "#c5e478"
       }
     },
     {
@@ -407,7 +410,7 @@
         "meta.tag.html"
       ],
       "settings": {
-        "foreground": "#7fdbca",
+        "foreground": "#caece6",
         "fontStyle": ""
       }
     },
@@ -416,14 +419,14 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "fontStyle": "",
-        "foreground": "#addb67"
+        "foreground": "#c5e478"
       }
     },
     {
       "name": "Entity Name Tag Custom",
       "scope": "entity.name.tag.custom",
       "settings": {
-        "foreground": "#addb67"
+        "foreground": "#c5e478"
       }
     },
     {
@@ -444,14 +447,14 @@
       "name": "Library class/type",
       "scope": ["support.type", "support.class"],
       "settings": {
-        "foreground": "#addb67"
+        "foreground": "#c5e478"
       }
     },
     {
       "name": "Support Variable DOM",
       "scope": "support.variable.dom",
       "settings": {
-        "foreground": "#addb67"
+        "foreground": "#c5e478"
       }
     },
     {
@@ -770,7 +773,7 @@
       "name": "Support Function",
       "scope": "support.function",
       "settings": {
-        "foreground": "#addb67"
+        "foreground": "#c5e478"
       }
     },
     {
@@ -890,7 +893,7 @@
       "name": "Bold",
       "scope": "bold",
       "settings": {
-        "foreground": "#addb67",
+        "foreground": "#c5e478",
         "fontStyle": "bold"
       }
     },
@@ -941,7 +944,7 @@
       "name": "C# Classes & Storage types",
       "scope": ["entity.name.type.class.cs", "storage.type.cs"],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#ffcb8b"
       }
     },
     {
@@ -949,6 +952,56 @@
       "scope": "entity.name.type.namespace.cs",
       "settings": {
         "foreground": "#B2CCD6"
+      }
+    },
+    {
+      "name": "C# Unquoted String Zone",
+      "scope": "string.unquoted.preprocessor.message.cs",
+      "settings": {
+        "foreground": "#d6deeb"
+      }
+    },
+    {
+      "name": "C# Region",
+      "scope": [
+        "punctuation.separator.hash.cs",
+        "keyword.preprocessor.region.cs",
+        "keyword.preprocessor.endregion.cs"
+      ],
+      "settings": {
+        "foreground": "#ffcb8b",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "C# Other Variables",
+      "scope": "variable.other.object.cs",
+      "settings": {
+        "foreground": "#B2CCD6"
+      }
+    },
+    {
+      "name": "C# Enum",
+      "scope": "entity.name.type.enum.cs",
+      "settings": {
+        "foreground": "#c5e478"
+      }
+    },
+    {
+      "name": "Dart String",
+      "scope": [
+        "string.interpolated.single.dart",
+        "string.interpolated.double.dart"
+      ],
+      "settings": {
+        "foreground": "#FFCB8B"
+      }
+    },
+    {
+      "name": "Dart Class",
+      "scope": "support.class.dart",
+      "settings": {
+        "foreground": "#FFCB8B"
       }
     },
     {
@@ -1007,7 +1060,7 @@
       "name": "Elixir Functions",
       "scope": "source.elixir entity.name.function",
       "settings": {
-        "foreground": "#addb67"
+        "foreground": "#c5e478"
       }
     },
     {
@@ -1024,7 +1077,7 @@
       "name": "Elixir String Punctuations",
       "scope": "source.elixir punctuation.definition.string",
       "settings": {
-        "foreground": "#addb67"
+        "foreground": "#c5e478"
       }
     },
     {
@@ -1034,7 +1087,7 @@
         "source.elixir variable.other.readwrite.module.elixir punctuation.definition.variable.elixir"
       ],
       "settings": {
-        "foreground": "#addb67"
+        "foreground": "#c5e478"
       }
     },
     {
@@ -1088,7 +1141,7 @@
         "foreground": "#ff5874"
       }
     },
-        {
+    {
       "name": "C++ Functions",
       "scope": [
         "entity.name.function.preprocessor.cpp",
@@ -1100,54 +1153,42 @@
     },
     {
       "name": "C++ Meta Namespace",
-      "scope": [
-        "meta.namespace-block.cpp"
-      ],
+      "scope": ["meta.namespace-block.cpp"],
       "settings": {
         "foreground": "#e0dec6"
       }
     },
     {
       "name": "C++ Language Primitive Storage",
-      "scope": [
-        "storage.type.language.primitive.cpp"
-      ],
+      "scope": ["storage.type.language.primitive.cpp"],
       "settings": {
         "foreground": "#ff5874"
       }
     },
     {
       "name": "C++ Preprocessor Macro",
-      "scope": [
-        "meta.preprocessor.macro.cpp"
-      ],
+      "scope": ["meta.preprocessor.macro.cpp"],
       "settings": {
         "foreground": "#d6deeb"
       }
     },
     {
       "name": "C++ Variable Parameter",
-      "scope": [
-        "variable.parameter"
-      ],
+      "scope": ["variable.parameter"],
       "settings": {
         "foreground": "#ffcb8b"
       }
     },
     {
       "name": "Powershell Variables",
-      "scope": [
-        "variable.other.readwrite.powershell"
-      ],
+      "scope": ["variable.other.readwrite.powershell"],
       "settings": {
         "foreground": "#82AAFF"
       }
     },
     {
       "name": "Powershell Function",
-      "scope": [
-        "support.function.powershell"
-      ],
+      "scope": ["support.function.powershell"],
       "settings": {
         "foreground": "#7fdbcaff"
       }
@@ -1156,7 +1197,7 @@
       "name": "ID Attribute Name in HTML",
       "scope": "entity.other.attribute-name.id.html",
       "settings": {
-        "foreground": "#addb67"
+        "foreground": "#c5e478"
       }
     },
     {
@@ -1272,7 +1313,7 @@
         "foreground": "#d6deeb"
       }
     },
-       {
+    {
       "name": "JSON Property Names",
       "scope": "support.type.property-name.json",
       "settings": {
@@ -1283,7 +1324,7 @@
       "name": "JSON Support Constants",
       "scope": "support.constant.json",
       "settings": {
-        "foreground": "#addb67"
+        "foreground": "#c5e478"
       }
     },
     {
@@ -1379,7 +1420,7 @@
       "name": "Markdown Bold",
       "scope": "markup.bold.markdown",
       "settings": {
-        "foreground": "#addb67",
+        "foreground": "#c5e478",
         "fontStyle": "bold"
       }
     },
@@ -1448,7 +1489,7 @@
       "name": "Markdown Inline Raw String",
       "scope": "markup.inline.raw.string.markdown",
       "settings": {
-        "foreground": "#addb67"
+        "foreground": "#c5e478"
       }
     },
     {
@@ -1476,14 +1517,14 @@
       "name": "PHP Global Variables",
       "scope": "variable.other.global.php",
       "settings": {
-        "foreground": "#addb67"
+        "foreground": "#c5e478"
       }
     },
     {
       "name": "Declaration Punctuation in PHP Global Variables",
       "scope": "variable.other.global.php punctuation.definition.variable",
       "settings": {
-        "foreground": "#addb67"
+        "foreground": "#c5e478"
       }
     },
     {
@@ -1524,7 +1565,7 @@
       "name": "Decorator Functions in Python",
       "scope": "entity.name.function.decorator.python",
       "settings": {
-        "foreground": "#addb67"
+        "foreground": "#c5e478"
       }
     },
     {
@@ -1550,7 +1591,7 @@
         "variable.parameter.url.sass"
       ],
       "settings": {
-        "foreground": "#addb67"
+        "foreground": "#c5e478"
       }
     },
     {
@@ -1715,6 +1756,16 @@
       "scope": ["entity.name.type.tsx", "entity.name.type.module.tsx"],
       "settings": {
         "foreground": "#ffcb8b"
+      }
+    },
+    {
+      "name": "TypeScript Class Variable Keyword",
+      "scope": [
+        "meta.class.ts meta.var.expr.ts storage.type.ts",
+        "meta.class.tsx meta.var.expr.tsx storage.type.tsx"
+      ],
+      "settings": {
+        "foreground": "#C792EA"
       }
     },
     {

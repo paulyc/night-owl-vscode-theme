@@ -2,23 +2,48 @@
 
 All notable changes to the "night-owl" extension are be documented in this file.
 
+## "2.0.0"
+
+- change strings
+- turn a base color less neon green
+- turn off semantic highlighting
+
+## "1.2.1"
+
+- fix italic/non-italic inconsistencies
+
+## "1.2.0"
+
+- fix dart files
+- update demo files, add in react hook example
+- fix contrast on popups
+- add in more ports to readme
+
+## "1.1.4"
+
+- fix typescript variable keyword highlighting inside classes
+
 ## "1.1.3"
 
-### Light 
+### Light
+
 - Update Go too-light function calls
 
 ### Dark
+
 - make selection background in search more legible
 
 ## "1.1.2"
 
 ### Light Theme
+
 - make selection background darker
 - make code comments darker
 
 ## "1.1.1"
 
 ### Light Theme
+
 - fix the find match background
 - fix the badge background to not be so distracting
 - fix keyword other unit css bright yellow
@@ -28,6 +53,7 @@ All notable changes to the "night-owl" extension are be documented in this file.
 - stop all the weird border error lines
 
 ### Dark theme
+
 - fix up terminal selection background
 
 ## "1.1.0"
